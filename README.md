@@ -18,27 +18,27 @@ Built with Next.js and shadcn/ui, deployed on Vercel.
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   git clone https://github.com/BartoszJarocki/cv.git
-   ```
+```bash
+git clone https://github.com/BartoszJarocki/cv.git
+```
 
 2. Move to the cloned directory
 
-   ```bash
-   cd cv
+```bash
+cd cv
    ```
 
 3. Install dependencies:
 
-   ```bash
-   yarn install
-   ```
+```bash
+bun i
+```
 
 4. Start the local Server:
 
-   ```bash
-   yarn dev
-   ```
+```bash
+bun dev
+```
 
 5. Open the [Config file](./src/data/resume-data.tsx) and make changes
 
@@ -46,19 +46,19 @@ Built with Next.js and shadcn/ui, deployed on Vercel.
 
 Build the container
 
-```
+```sh
 docker compose build
 ```
 
 Run the container
 
-```
+```sh
 docker compose up -d
 ```
 
 Stop the Container
 
-```
+```sh
 docker compose down 
 ```
 
