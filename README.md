@@ -26,7 +26,7 @@ git clone https://github.com/BartoszJarocki/cv.git
 
 ```bash
 cd cv
-   ```
+```
 
 3. Install dependencies:
 
@@ -59,7 +59,7 @@ docker compose up -d
 Stop the Container
 
 ```sh
-docker compose down 
+docker compose down
 ```
 
 # License
