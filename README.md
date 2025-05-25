@@ -31,6 +31,9 @@ cd cv
 3. Install dependencies:
 
 ```bash
+bun -v
+# should be >= 1.2.14
+
 bun i
 ```
 
