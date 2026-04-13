@@ -14,11 +14,6 @@ import { Section } from "@/components/ui/section";
 import { RESUME_DATA } from "@/data/resume-data";
 import avatarImage from "./images/avatar/loc.webp";
 
-const getCurrentDate = () => {
-  const date = new Date();
-  return `${date.getFullYear()}_${date.getMonth() + 1}_${date.getDate()}`;
-};
-
 export default function App() {
   return (
     <>
@@ -251,11 +246,7 @@ export default function App() {
                           title={project.title}
                           description={project.description}
                           tags={project.techStack}
-                          link={
-                            "link" in project && project.link
-                              ? project.link.href
-                              : undefined
-                          }
+                          link={project.link?.href}
                           className={
                             projectIndex === projectChunk.length - 1 &&
                             projectChunk.length % 3 === 1
